@@ -1,0 +1,30 @@
+{
+  "name": "passport-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon src/index.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Mateja Petrovic <mateja176@gmail.com> (https://github.com/mateja176)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "passport": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/jest": "^24.0.18",
+    "@types/passport": "^1.0.1",
+    "@types/supertest": "^2.0.8",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.2",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}
